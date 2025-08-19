@@ -1,0 +1,17 @@
+// Program: SumUntilZeroOrNegative_Break
+// Purpose: Find the sum until the user enters 0 or a negative number using while(true) and break.
+import java.util.Scanner;
+
+class SumUntilZeroOrNegative_Break {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double total = 0.0;
+        while (true) {
+            double value = input.nextDouble();
+            if (value <= 0.0) break;
+            total += value;
+        }
+        System.out.println("Total = " + total);
+        input.close();
+    }
+}
