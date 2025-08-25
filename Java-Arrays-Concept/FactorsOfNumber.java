@@ -3,7 +3,6 @@
 // Description: Finds and stores factors in a dynamically grown array
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class FactorsOfNumber {
     public static void main(String[] args) {
